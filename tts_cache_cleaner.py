@@ -1,28 +1,6 @@
 #!/usr/bin/env python
 """
 TTS Cache Cleaner!
-
-
-
-PLEASE FOLLOW THE INSTRUCTIONS, AND ONLY ASK FOR HELP IF YOU ACTUALLY TRIED.
-IT IS NOT AS HARD AS YOU THINK. SERIOUSLY STOP PROCRASTINATING AND JUST DO IT.
-
-How to use:
-1. Have Python installed: https://www.python.org/downloads/
-2. Have this script somewhere on your computer. Double-click it to run. You
-   should see a window with text in it, it should work for a while, then tell
-   you to press enter to exit.
-    2a. If the window doesn't show up or shows up for just a split second, you
-        have some sort of permissions problem specific to your computer, and
-        you might need to google for how to run a python script from the
-        internet.
-3a. If you run the script on its own, it will attempt to guess your TTS data
-    folder and clean everything in it. If it does not find the correct
-    directory, you can put the preferred path into TTS_DIR_OVERRIDE.
-3b. Alternatively, run this on a particular file or directory. If you're on
-    Windows, after installing Python you can drag your Saves and/or Workshop
-    folder onto this script and it'll run and clean them, or run
-    `python path/to/script.py path/to/Saves` on the command line.
 """
 import json
 import multiprocessing
