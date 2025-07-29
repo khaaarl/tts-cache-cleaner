@@ -93,6 +93,9 @@ def _urls_from_json_obj(obj, url_set):
         if '"' in obj:
             for s in re.findall('"(http[^"]+)"', obj):
                 url_set.add(s)
+        if "'" in obj:
+            for s in re.findall("'(http[^']+)'", obj):
+                url_set.add(s)
     elif isinstance(obj, dict):
         for v in obj.values():
             _urls_from_json_obj(v, url_set)
