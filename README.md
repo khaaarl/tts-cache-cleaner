@@ -12,4 +12,5 @@ This is a relatively simple Python script that looks through your Tabletop Simul
 ## FAQ:
 
 Q: Will this work with ForceOrg, which uses a nonstandard method of storing objects?
+
 A: Yes; to determine which URLs are in use, it both looks for strings in the .json files that start with 'http' and also substrings that look like URLs in single or double quotes within those strings. That should cover most bespoke "smart" bag implementations, including that of ForceOrg's tiles.
