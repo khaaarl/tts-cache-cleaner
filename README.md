@@ -5,7 +5,7 @@ This is a relatively simple Python script that looks through your Tabletop Simul
 ## How to use:
 
 1. Have Python installed: https://www.python.org/downloads/
-2. Have the `tts_cache_cleaner.py` script somewhere on your computer. Double-click it to run. You should see a window with text in it, it should work for a while, then tell you to press enter to exit.
+2. Have the [`tts_cache_cleaner.py`](https://raw.githubusercontent.com/khaaarl/tts-cache-cleaner/refs/heads/main/tts_cache_cleaner.py) script somewhere on your computer. Double-click it to run. You should see a window with text in it. It should think for a while, possibly prompt you about deleting unreferenced cache files, then tell you to press enter to exit.
     1. If the window doesn't show up or shows up for just a split second, you have some sort of permissions problem specific to your computer, and you might need to google for how to run a python script from the internet.
 3. If you run the script on its own, it will attempt to guess your TTS data folder and examine everything in it. If it does not find the correct directory, you can put the preferred path into TTS_DIR_OVERRIDE.
 
